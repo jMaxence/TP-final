@@ -1,0 +1,92 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Avenir, sans-serif;
+ 
+}
+
+nav{
+  width: 100%;
+  margin: 0 auto;
+  background-image: repeating-linear-gradient(112.5deg, hsla(19,0%,93%,0.2) 0px, hsla(19,0%,93%,0.2) 0px,transparent 0px, transparent 1px,hsla(19,0%,93%,0.2) 1px, hsla(19,0%,93%,0.2) 4px,transparent 4px, transparent 5px,hsla(19,0%,93%,0.2) 5px, hsla(19,0%,93%,0.2) 8px),repeating-linear-gradient(0deg, hsla(19,0%,93%,0.2) 0px, hsla(19,0%,93%,0.2) 0px,transparent 0px, transparent 1px,hsla(19,0%,93%,0.2) 1px, hsla(19,0%,93%,0.2) 4px,transparent 4px, transparent 5px,hsla(19,0%,93%,0.2) 5px, hsla(19,0%,93%,0.2) 8px),linear-gradient(135deg, rgb(238, 238, 238),rgb(121, 121, 121));
+  position: sticky;
+  top: 0px;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav ul li{
+  float: left;
+  width: 25%;
+  text-align: center;
+  position: relative;
+}
+
+nav ul::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid transparent;
+  padding: 10px 0px;
+  border-radius: 2rem;
+}
+
+nav a:hover{
+  color: orange;
+  border-bottom: 2px solid gold;
+}
+
+.sous{
+  display: none;
+  box-shadow: 0px 1px 2px #CCC;
+  background-image: repeating-linear-gradient(112.5deg, hsla(19,0%,93%,0.2) 0px, hsla(19,0%,93%,0.2) 0px,transparent 0px, transparent 1px,hsla(19,0%,93%,0.2) 1px, hsla(19,0%,93%,0.2) 4px,transparent 4px, transparent 5px,hsla(19,0%,93%,0.2) 5px, hsla(19,0%,93%,0.2) 8px),repeating-linear-gradient(0deg, hsla(19,0%,93%,0.2) 0px, hsla(19,0%,93%,0.2) 0px,transparent 0px, transparent 1px,hsla(19,0%,93%,0.2) 1px, hsla(19,0%,93%,0.2) 4px,transparent 4px, transparent 5px,hsla(19,0%,93%,0.2) 5px, hsla(19,0%,93%,0.2) 8px),linear-gradient(135deg, rgb(238, 238, 238),rgb(121, 121, 121));
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+  border-radius: 2rem;
+}
+nav > ul li:hover .sous{
+  display: block;
+}
+.sous li{
+  float: none;
+  width: 100%;
+  text-align: left;
+}
+.sous a{
+  padding: 10px;
+  border-bottom: none;
+}
+.sous a:hover{
+  border-bottom: none;
+  background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+  content:" ";
+  font-size: 12px;
+}
+
+.conteneur{
+height: 1500px;
+background-image: radial-gradient(circle 7px at 84% 90%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 7px at 81% 15%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 7px at 2% 78%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 7px at 41% 48%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 7px at 77% 61%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 0% 53%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 78% 89%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 40% 61%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 53% 74%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 75% 87%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 66% 50%, rgb(43,43,43) 0%, rgb(43,43,43) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 56% 29%, rgb(43,43,43) 0%, rgb(43,43,43) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 87% 94%, rgb(43,43,43) 0%, rgb(43,43,43) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 97% 6%, rgb(43,43,43) 0%, rgb(43,43,43) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 65% 56%, rgb(43,43,43) 0%, rgb(43,43,43) 50%,transparent 50%, transparent 100%),radial-gradient(circle at top center, rgb(35,35,35) 0%, rgb(35,35,35) 10%,transparent 10%, transparent 90%),linear-gradient(183deg, rgb(201, 204, 57),rgb(233, 33, 27));
+}
+.titre{
+  padding: 300px;
+  text-align: center;
+  vertical-align: middle;
+}
+.texte{
+text-shadow: 1px 1px 10px rgb(255, 255, 255);
+text-align: center;
+vertical-align: middle;
+font-size: 30px;
+}
+

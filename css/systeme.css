@@ -1,0 +1,30 @@
+body{
+    font-family: Helvetica;  
+    height: 100vh;
+    background-image: radial-gradient(circle 8px at 80% 68%, rgb(35,35,35) 0%, rgb(35,35,35) 50%,transparent 50%, transparent 100%),radial-gradient(circle 8px at 24% 41%, rgb(35,35,35) 0%, rgb(35,35,35) 50%,transparent 50%, transparent 100%),radial-gradient(circle 6px at 34% 66%, rgb(45,45,45) 0%, rgb(45,45,45) 50%,transparent 50%, transparent 100%),radial-gradient(circle 6px at 56% 55%, rgb(45,45,45) 0%, rgb(45,45,45) 50%,transparent 50%, transparent 100%),radial-gradient(circle 6px at 11% 60%, rgb(45,45,45) 0%, rgb(45,45,45) 50%,transparent 50%, transparent 100%),radial-gradient(circle 6px at 6% 89%, rgb(45,45,45) 0%, rgb(45,45,45) 50%,transparent 50%, transparent 100%),radial-gradient(circle 6px at 0% 36%, rgb(45,45,45) 0%, rgb(45,45,45) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 20% 56%, rgb(35,35,35) 0%, rgb(35,35,35) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 44% 56%, rgb(35,35,35) 0%, rgb(35,35,35) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 0% 43%, rgb(35,35,35) 0%, rgb(35,35,35) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 19% 33%, rgb(35,35,35) 0%, rgb(35,35,35) 50%,transparent 50%, transparent 100%),radial-gradient(circle at center left, rgb(35,35,35) 0%, rgb(35,35,35) 10%,transparent 10%, transparent 90%),linear-gradient(298deg, rgb(231, 16, 102),rgb(231, 158, 27));
+}
+ 
+.p{
+    padding-top: 50px;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 1px 1px 10px rgb(255, 255, 255);
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 1px 1px 10px rgb(255, 255, 255);
+}
+.boutton{
+    background-color:rgb(10, 10, 121);
+    border: none;
+    color: beige;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 2rem;
+}

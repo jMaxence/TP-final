@@ -1,0 +1,79 @@
+div.style1 {
+     
+    height: 180px;
+    width: 1800px;
+    background: rgb(251, 255, 0);
+    padding-right: 100px;
+    text-align: left;
+    float: auto;
+    margin: 0px;
+   
+    
+}
+div.style2 {
+ 
+    height: 25px;
+    width: 40px;
+    background: rgb(0, 0, 0);
+    padding-right: 15px;
+    color:rgb(255, 255, 255)
+    
+}
+div.style3 {
+ 
+    height: 25px;
+    width: 170px;
+    background: rgb(0, 0, 0);
+    padding-right: 15px;
+    color:rgb(255, 255, 255)
+    
+}
+div.style4{
+ 
+    height: 25px;
+    width: 80px;
+    background: rgb(0, 0, 0);
+    padding-right: 15px;
+    color:rgb(255, 255, 255)
+    
+}
+.fit-picture {
+    height:300 px;
+    width: 200px;
+}
+div.style5 {
+ 
+    height: 25px;
+    width: 80px;
+    background: rgb(0, 0, 0);
+    padding-right: 15px;
+    color:rgb(255, 255, 255)
+    
+}
+div.style6 {
+ 
+    height: 20px;
+    width: 45px;
+    background: rgb(0, 0, 0);
+    padding-right: 15px;
+    color:rgb(255, 255, 255)
+    
+}
+div.style7{
+ 
+    height: 20px;
+    width: 40px;
+    background: rgb(0, 0, 0);
+    padding-right: 15px;
+    color:rgb(255, 255, 255)
+    
+}
+div.style8 {
+ 
+    height: 25px;
+    width: 110px;
+    background: rgb(0, 0, 0);
+    padding-right: 15px;
+    color:rgb(255, 255, 255)
+    
+}

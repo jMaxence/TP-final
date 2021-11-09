@@ -1,0 +1,30 @@
+body{
+    font-family: Helvetica;
+    height: 100vh;
+    background-image: radial-gradient(circle 7px at 65% 42%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 7px at 18% 54%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 7px at 69% 14%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 7px at 0% 63%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 7px at 41% 87%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 81% 77%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 97% 65%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 78% 54%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 99% 20%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 5px at 13% 74%, rgb(56,56,56) 0%, rgb(56,56,56) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 71% 11%, rgb(43,43,43) 0%, rgb(43,43,43) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 86% 30%, rgb(43,43,43) 0%, rgb(43,43,43) 50%,transparent 50%, transparent 100%),radial-gradient(circle 12px at 56% 50%, rgb(43,43,43) 0%, rgb(43,43,43) 50%,transparent 50%, transparent 100%),radial-gradient(circle at center right, rgb(35,35,35) 0%, rgb(35,35,35) 10%,transparent 10%, transparent 90%),linear-gradient(288deg, rgb(47, 113, 183),rgb(136, 79, 213));
+    }
+    .p{
+        padding-top: 50px;
+        text-align: center;
+        vertical-align: middle;
+        text-shadow: 1px 1px 10px rgb(255, 255, 255);
+    }
+    h1{
+        font-size: 50px;
+        text-align: center;
+        vertical-align: middle;
+        text-shadow: 1px 1px 10px rgb(253, 253, 253);
+        text-decoration: beige; 
+    }
+    .boutton{
+        background-color:rgb(0, 0, 177);
+        border: none;
+        color: beige;
+        padding: 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 2rem;
+    }

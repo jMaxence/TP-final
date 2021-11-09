@@ -1,0 +1,46 @@
+
+body, html, header,h1{
+margin: 0px;
+padding: 0px;
+}
+
+body{
+font-family: Helvetica;  
+}
+
+header,body,html{
+ width: 100%;
+ height: 100%;
+}
+
+header{
+background: url("https://www.sortiraparis.com/images/80/88384/695294-la-terre-vu-de-l-espace-les-plus-belles-photos-de-france-prises-par-thomas-pesqu.jpg") no-repeat center center;
+background-size: cover;
+color: white;
+
+}
+.wrapper{
+display:table;
+width: 100%;
+height: 100%;
+}
+.content{
+text-align: center;
+vertical-align: middle;
+text-shadow: 1px 1px 10px black;
+}
+h1{
+font-size: 100px;
+}
+.boutton{
+    background-color:rgb(10, 10, 121);
+    border: none;
+    color: beige;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 2rem;
+}
